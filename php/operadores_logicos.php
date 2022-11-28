@@ -13,5 +13,5 @@ echo "Operador de mayor o igual que >= <br/>";
 
 echo "Operadores logicos <br/>";
 echo "si ambas condiciones son ciertas && <br/>";
-echo "si una de dos condiciones es cierta  <br/>";
+echo "si una de dos condiciones es cierta || <br/>";
 
