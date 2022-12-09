@@ -12,10 +12,10 @@ $b = true;
 $c = false;
 $d = false;
 
-$resultado = $a && $b;
-$resultado2 = $c && $d;
+echo "<br/>";
+$resultado = $a xor $c;
 $resultado2 = $c && $d;
 
+
 var_dump($resultado);
-echo "<br/>";
-var_dump($resultado2);
+//var_dump($resultado2);
