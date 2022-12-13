@@ -25,7 +25,16 @@ $data = [
         'email' => 'casimira@gmail.com',
         'celular' => '22209322'
     ],
+    [
+        'nombre' => 'Pepe guardiola',
+        'email' => 'pepe@gmail.com',
+        'celular' => '22209122'
+    ]
 
 ];
 
-echo $data[0]['nombre'];
+//echo $data[0]['nombre'];
+
+foreach ($data as $value) {
+    echo $value['nombre'] . '<br/>';
+}
