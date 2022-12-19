@@ -1,4 +1,5 @@
 <?php
 
 $hola = "hola mundo";
-str_split($hola);
+
+var_dump($uno = str_split($hola, 4));
