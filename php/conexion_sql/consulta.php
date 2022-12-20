@@ -35,7 +35,7 @@ $con = conexion();
             // $primerApellido = 'aaron';
             // $segundoApellido = 'aaron';
 
-            $sql = "SELECT * FROM `vacunas` WHERE `nombres` LIKE '%aaron%' AND `nombres` LIKE '%teos%'";
+            $sql = "SELECT * FROM `vacunas` WHERE `nombres` LIKE '%aaron%'";
             $query = mysqli_query($con, $sql);
             if ($query) {
                 while ($row = mysqli_fetch_array($query)) {
