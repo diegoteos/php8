@@ -23,6 +23,15 @@
             <br><br>
             <button type="submit">Enviar</button>
         </label>
+
+<select name="sexo" id="">
+
+<option value="Masculino" selected>Masculino</option>
+<option value="Femenino">Femenino</option>
+
+</select>
+
+
     </form>
 </body>
 

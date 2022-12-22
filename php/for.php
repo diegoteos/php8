@@ -1,9 +1,6 @@
 <?php
 
-$filas = 10;
-
-
-for ($i = 0; $i <= $filas; $i++) {
+$filas = 10;for ($i = 0; $i <= $filas; $i++) {
     for ($j = 1; $j <= $i; $j++) {
        // echo "*";
     }
@@ -23,10 +20,7 @@ $array = array(
 
 foreach ($array as $animal){
     // echo "$animal <br/>";
-}
-
-
-// parar una ciclo al cumplir con una condicion
+}// parar una ciclo al cumplir con una condicion
 
 for ($i = 0; $i <= 20; $i++){
     
@@ -49,10 +43,7 @@ for ($i = 0; $i <= 20; $i++){
     }
 
     echo "$i <br/>";
-}
-
-
-// con las funciones die(); o exit(); detenemos completamente la ejecucion del programa
+}// con las funciones die(); o exit(); detenemos completamente la ejecucion del programa
 
 for ($i = 0; $i <= 20; $i++){
     
