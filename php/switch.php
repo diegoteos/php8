@@ -1,6 +1,6 @@
 <?php
 
-$hola = 1;
+$hola = 0;
 
 switch ($hola) {
     case 0:
