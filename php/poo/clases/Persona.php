@@ -9,11 +9,11 @@ class Persona
 
     // constructor el cual se ejecuta cuando instanciamos
 
-    public function __construct($nombre, $apellido, $edad){
-        $this->nombre = strtolower($nombre);
-        $this->apellido = strtolower($apellido);
-        $this->edad = $edad;
-    }
+    // public function __construct($nombre, $apellido, $edad){
+    //     $this->nombre = strtolower($nombre);
+    //     $this->apellido = strtolower($apellido);
+    //     $this->edad = $edad;
+    // }
 
     // los objetos tienen propiedades y metodos
 
@@ -28,9 +28,17 @@ class Persona
     public function getNombre(){
         return ucwords($this->nombre);    
     }
+    }
+
+    class Peruano extends Persona{
+        public $departamento, $ciudad;
+    }
+    class Guatemalteco extends Persona{
+        public $provincia, $ciudad;
+    }
     
 
 
 
 
-}
+
