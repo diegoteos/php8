@@ -9,3 +9,7 @@ class MiPrimeraClase
         echo $this->propiedad;
     }
 }
+
+$propiedades = new MiPrimeraClase;
+$propiedades->propiedades;
+$propiedades = "hola mundano";
